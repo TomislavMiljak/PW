@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header {
+    width: 90vw;
+    height: 10vh;
+}
+header h3 {
+    color: white;
+}
+.container {
+    width: 90vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+.first {
+    background-color: white;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+
+}
+.first:hover {
+    background-color: rgb(51, 196, 46);
+}
+.second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+}
+.second a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+.second:hover {
+    background-color: rgb(19, 231, 231);
+}
+.third {
+    background-color: white;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 4rem;
+}
+.third a {
+    text-decoration: none;
+    color: black;
+}
+.third:hover {
+    background-color: rgb(0, 212, 142);
+}
+
+.fourth {
+    background-color: white;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+}
+.fourth:hover {
+    background-color: rgb(161, 147, 241);
+}
+.fifth {
+    background-color: white;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+}
+.fifth:hover {
+    background-color: rgb(255, 0, 0);
+}
+.sixth {
+    background-color: white;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sixth:hover {
+    background-color: rgb(209, 223, 21);
+}
+.sixth a {
+    text-decoration: none;
+    color: black;
+}
+.seventh {
+    background-color: white;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+}
+.seventh:hover {
+    background-color: rgb(151, 11, 132);
+}
+.eighth {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background-color: white;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    padding-left: 3.5rem;
+}
+.eighth a {
+    text-decoration: none;
+    color: black;
+}
+.eighth:hover {
+    background-color: rgb(6, 212, 6);
+}
+.eighth:hover a {
+    color: white;
+}
+.ninth {
+    background-color: white;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+}
+.ninth:hover {
+    background-color: rgb(255, 128, 234);
+}
+.tenth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    padding-left: 3.5rem;
+}
+.tenth a {
+    text-decoration: none;
+    color: black;
+}
+.tenth:hover {
+    background-color: rgb(176, 182, 19);
+}
+.eleventh {
+    background-color: white;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+}
+.eleventh:hover {
+    background-color: rgb(245, 151, 151);
+}
+.twelfth {
+    background-color: white;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.twelfth a {
+    text-decoration: none;
+    color: black;
+}
+.twelfth:hover {
+    background-color: rgb(245, 168, 4);
+}
+.thirteenth {
+    background-color: white;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+}
+.thirteenth:hover {
+    background-color: red;
+}
+.fourteenth {
+    background-color: white;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+}
+.fourteenth:hover {
+    background-color: rgb(42, 23, 211);
+}
+.fifteenth {
+    background-color: white;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+}
+.fifteenth:hover {
+    background-color: rgb(241, 238, 20);
+}
+.sixteenth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    padding-left: 3rem;
+}
+.sixteenth a {
+    text-decoration: none;
+    color: black;
+}
+.sixteenth:hover {
+    background-color: rgb(24, 193, 235);
+}
